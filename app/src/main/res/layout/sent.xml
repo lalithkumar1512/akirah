@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="6dp"
+        android:layout_height="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/black">
+
+
+    </RelativeLayout>
+      <RelativeLayout
+
+          android:background="@drawable/btn_background1"
+          android:layout_width="wrap_content"
+          android:layout_marginLeft="40dp"
+          android:layout_alignParentRight="true"
+          android:layout_marginTop="5dp"
+          android:layout_marginRight="8dp"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:id="@+id/txt_sent_message"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:text="sent message"
+              android:textColor="@color/white"
+              android:textSize="15sp">
+
+          </TextView>
+          <TextView
+              android:id="@+id/txt_time1"
+              android:layout_width="28dp"
+              android:layout_height="11dp"
+              android:textSize="10dp"
+              android:layout_alignBottom="@id/txt_sent_message"
+              android:layout_alignRight="@id/txt_sent_message"
+              android:layout_marginRight="4dp"
+              android:layout_marginTop="32dp"
+              android:background="@drawable/btn_background1"
+              android:text="time"
+              android:textColor="@color/white">
+
+          </TextView>
+      </RelativeLayout>
+</RelativeLayout>

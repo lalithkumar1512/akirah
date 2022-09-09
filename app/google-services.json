@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "987636241821",
+    "project_id": "akirah-43b46",
+    "storage_bucket": "akirah-43b46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987636241821:android:499ac8beced82068c20b74",
+        "android_client_info": {
+          "package_name": "com.example.akirah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987636241821-saboci85aaolvt5de3jkoog2mckidvqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWyqXDm2u9CDpUmjB9GXjK_BTf-R7BVe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987636241821-saboci85aaolvt5de3jkoog2mckidvqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
